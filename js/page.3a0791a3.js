@@ -1291,7 +1291,7 @@ parcelRequire = function(e, r, t, n) {
 		Object.prototype.location = window.location;
 		var t = require("zepto").$;
 		function e() {
-			var e = ["致敬<br>为人类探索太空奉献自己一生的人们<br>缅怀<br>那些为人类太空事业牺牲的宇航员"],
+			var e = ["致敬<br>为人类探索太空奉献一生的人们<br>缅怀<br>那些为人类太空事业牺牲的宇航员"],
 			i = o(0, e.length - 1);
 			t("#slogan").html(e[i])
 		}
